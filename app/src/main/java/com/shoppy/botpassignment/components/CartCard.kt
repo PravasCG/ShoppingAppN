@@ -202,6 +202,7 @@ fun CartCardItem(mCart: MCart,viewModel: CartScreenViewModel,
 
                                     if (countState.value!! == 5) Toast.makeText(context,"Maximum quantity per item reached",Toast.LENGTH_SHORT).show()
 
+
                                     if (mCart.stock!! == countState.value!!) Toast.makeText(context,"Only ${mCart.stock} left in stock",Toast.LENGTH_SHORT).show()
 
                                     navController.popBackStack()

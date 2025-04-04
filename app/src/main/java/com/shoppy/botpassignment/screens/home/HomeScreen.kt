@@ -92,8 +92,8 @@ fun HomeScreen(
                 Column(
                     modifier = Modifier
                         .padding(innerPadding)
-                        .fillMaxSize()
-                        .verticalScroll(rememberScrollState()),
+                        .fillMaxSize(),
+                        //.verticalScroll(rememberScrollState()),
                     verticalArrangement = Arrangement.Top,
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
